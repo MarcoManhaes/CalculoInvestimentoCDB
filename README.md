@@ -34,7 +34,9 @@ quando execurta a API.
 ### Execução
 
 Os comandos abixo precisam ser executados em linha de comando, estando no diretório do projeto:
+
 * 'dotnet run' --> para executar a api (CalCDB.Client)
+* npm install --> instalar as dependências do projeto (CalCDB.Client)
 * 'ng serve --open' --> para executar o projeto Angular (CalCDB.Client)
 * para executar a cobertura de código, vá ao menuu Extension >> ReSharper >> Unit Tests >> Cover All Tests fron solution
 
