@@ -1,0 +1,41 @@
+<section class="container input-fields ff-inter">   
+    <div style="margin-left: 10%;">
+        <h2>Cálculo de investimento CDB</h2>
+    </div>
+    <form>
+        
+        <label for="decimal-value">Informe o valor investido:</label>
+        <input type="text" 
+        class="input" 
+        id="decimal-value"
+        name="decimal-value"
+        placeholder="Digite o valor investido"
+        [(ngModel)]="valorInvestido">
+        
+        <label for="numeric-month">Informe a quantidade de meses:</label>
+        <input type="number" 
+        class="input" 
+        id="numeric-month"
+        name="numeric-month"
+        placeholder="Digite a quantidade de meses"
+        [(ngModel)]="quantidadeMeses">
+        
+        <div style="margin-bottom: 10px;">
+            <button class="botao-estilizado"
+            (click)="atribuirParametros()">Calcular CDB</button>
+        </div>
+        
+        <div class="div-result">
+            <label>Valor Bruto: </label>
+            <span>{{ valorBruto | currency:'BRL' }}</span>
+        </div>
+        <div class="div-result">
+            <label>Valor Líquido: </label>
+            <span>{{ valorLiquido | currency:'BRL' }}</span>
+        </div>
+        <div class="div-result">
+            <label>Valor Desconto: </label>
+            <span >{{ valorDesconto | currency:'BRL' }}</span>
+        </div>
+    </form>
+</section>
