@@ -1,11 +1,11 @@
-# 'Avaliação de Competências em Desenvolvimento'  Genesis / B3
-Desenvolvimento do projeto 'Avaliação de Competências em Desenvolvimento'  Genesis / B3
+# 'Avaliação de Competências em Desenvolvimento' 
+Desenvolvimento do projeto 'Avaliação de Competências em Desenvolvimento'
 
 ## Descrição
 
 Desenvolvimento do projeto 'Avaliação de Competências em Desenvolvimento' 
 com o propósito de medir minha capacidade em analisar e implementar a 
-solução  fundamentadas pelos princípios do SOLID, Testes
+solução fundamentadas pelos princípios do SOLID, Testes
 unitários e performance.
 
 Foi desenvolvido uma Api utilizando Asp.Net Core 6, contendo um end-point que 
